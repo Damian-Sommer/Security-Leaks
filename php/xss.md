@@ -22,7 +22,7 @@ Ich habe in der URL eine variable namens username. In jener kann der Benutzernam
 
 ## Wie haben Sie die Sicherheitslücke geschlossen (wo im Code?)?
 
-- Damit man diese Sicherheitslücke schliessen kann, muss man im PHP-Code die Eingabe der GET-Variable escapen. Dies macht man durch den command: ```htmlspecialchars()```
+- Damit man diese Sicherheitslücke schliessen kann, muss man im PHP-Code die Eingabe der GET-Variable escapen. Dies macht man durch den command: ```htmlspecialchars()```. Durch diesen Code werden alle spezielen Zeichen durch speziele Codes ersetzt. Beispielsweise wird aus einem ```<``` das neue Zeichen ```&lt;```.
 - Codebeispiel: [Beispiel Escaped Code](/php/escaped.png)
 ![Beispiel Escaped Code](/php/escaped.png)
 
