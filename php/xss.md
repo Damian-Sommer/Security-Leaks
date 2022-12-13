@@ -27,5 +27,5 @@ Ich habe in der URL eine variable namens username. In jener kann der Benutzernam
 ![Beispiel Escaped Code](/php/escaped.png)
 
 ## Installation
-Damit dieser Code getestet werden kann, muss man XAMPP installieren. Sofern dies getan wurde, muss man im Ordner Dashboard einen neuen Ordner namens ```www``` erstellen und den Code darin einfügen. Danach kann man den PHP Server von XAMPP starten und unter der URL ```localhost/dashboard/www/SECURITY-LEAKS/php/escape.php``` oder ```localhost/dashboard/www/SECURITY-LEAKS/php/unescaped.php``` den Code testen.
+Damit dieser Code getestet werden kann, muss man XAMPP installieren. Sofern dies getan wurde, muss man im Ordner Dashboard einen neuen Ordner namens ```www``` erstellen und den Code darin einfügen. Danach kann man den PHP Server von XAMPP starten und unter der URL ```localhost/dashboard/www/Security-Leaks/php/escape.php``` oder ```localhost/dashboard/www/Security-Leaks/php/unescaped.php``` den Code testen.
 ### [Go Back](https://github.com/Damian-Sommer/Security-Leaks)
